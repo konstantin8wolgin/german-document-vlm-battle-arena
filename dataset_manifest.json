@@ -1,0 +1,558 @@
+{
+  "documents": [
+    {
+      "doc_id": "rechnungen_001",
+      "category": "rechnungen",
+      "title": "IHK Musterrechnung",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/6246454/e922f99ff6b4a5e8800ffad21680b4ce/musterrechnung-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/rechnungen_001.pdf",
+      "sha256": "be62dfadbfa0942a4c9098289c17b281fc19b4d4ba4022c580e50dd2c2b1785b"
+    },
+    {
+      "doc_id": "rechnungen_002",
+      "category": "rechnungen",
+      "title": "IHK Kleinunternehmerrechnung",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/5581278/1cafa7f203df9d83e050d9f01677ffe6/rechnung-kleinunternehmer-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/rechnungen_002.pdf",
+      "sha256": "dee1b158278efd9a3be7f008ef0438d2de2a00f406d364001f4617f0f9f4a39b"
+    },
+    {
+      "doc_id": "rechnungen_003",
+      "category": "rechnungen",
+      "title": "IHK Schleswig-Holstein Musterrechnung",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/1369812/0c4aa4a7f4e160c7a9d687a1ae6a73bd/musterrechnung-bf-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/rechnungen_003.pdf",
+      "sha256": "74640284ef0bc8f0c680df42914d879b3f802dda652a9a2ccd6a52bf0dacc8a0"
+    },
+    {
+      "doc_id": "rechnungen_004",
+      "category": "rechnungen",
+      "title": "IHK Musterrechnung 2024",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/4803860/a0e4b62c2cbf6fbd8d733f6a4296eb38/musterrechnung-2024-barrierefrei-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/rechnungen_004.pdf",
+      "sha256": "5fbf41723acb42c2edecee8aba268f751080234092e02d9a997663e1ca02391e"
+    },
+    {
+      "doc_id": "rechnungen_005",
+      "category": "rechnungen",
+      "title": "IHK Musterrechnung mit Mehrwertsteuer",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/6779794/5ce7d6a0d1b97317c649a80b2c378e6b/musterrechnung-mit-mwst--data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/rechnungen_005.pdf",
+      "sha256": "6b33a206ebb6dd863713d4c1c8a48b06704568dce4aafd046f20f4d0da157e02"
+    },
+    {
+      "doc_id": "vertraege_001",
+      "category": "vertraege",
+      "title": "IHK GmbH-Geschaeftsfuehrer Mustervertrag",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/1465484/56cb5f0690c00a31daa67518881271d8/gmbh-geschaeftsfuehrer-mustervertrag-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/vertraege_001.pdf",
+      "sha256": "d3a28baf003cc563efde6fc7b5b7f5d36a6bc4db60106df68b17f8005476663e"
+    },
+    {
+      "doc_id": "vertraege_002",
+      "category": "vertraege",
+      "title": "IHK Reinigungsvertrag",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/3699538/f37d24be295a448dd49cb3c0fecc590d/tiptop-reinigungsvertrag-gebaeudereinigung-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/vertraege_002.pdf",
+      "sha256": "3ea26a46fe638a39636493a233b0e492c84f05dc2a4543e23854fcb64e42e392"
+    },
+    {
+      "doc_id": "vertraege_003",
+      "category": "vertraege",
+      "title": "IHK Werkvertrag",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/2264830/5a6d1c867ccca3c29f9e6bbb93ff5d85/werkvertrag-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/vertraege_003.pdf",
+      "sha256": "89f6ef0f0aef5a051591e7dcd35072f953068886003710c9385db851f2856abd"
+    },
+    {
+      "doc_id": "vertraege_004",
+      "category": "vertraege",
+      "title": "IHK Fernabsatzvertraege",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/1407038/a7e6cbc38c20c905a1afecc048e9ced1/merkblatt-fernabsatzvertraege-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/vertraege_004.pdf",
+      "sha256": "3b19da08c4e878563e4b48ec7a4155738b25e8a7e5324d4aa6804f2bfc04e387"
+    },
+    {
+      "doc_id": "vertraege_005",
+      "category": "vertraege",
+      "title": "IHK UN-Kaufrecht",
+      "source_url": "https://www.ihk.de/blueprint/servlet/resource/blob/5240230/883cab8a0b4c3d22e27b909e670ec7fc/un-kaufrecht-broschuere-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/vertraege_005.pdf",
+      "sha256": "166ef4c4ab3593caa33b6bed36b1d2b4cce74cdd83c9ac7f095b86009e8aea35"
+    },
+    {
+      "doc_id": "behoerdenpost_001",
+      "category": "behoerdenpost",
+      "title": "FragDenStaat Widerspruchsbescheid Flensburg",
+      "source_url": "https://fragdenstaat.de/files/foi/628496/02-widerspruchsbescheid_pub_geschwaerzt.pdf?download=",
+      "source_license_note": "redacted public FOI correspondence",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/behoerdenpost_001.pdf",
+      "sha256": "52698cc98beb76a8719eb7f488f62433d9369b213ca01e510671493cca996aac"
+    },
+    {
+      "doc_id": "behoerdenpost_002",
+      "category": "behoerdenpost",
+      "title": "FragDenStaat Widerspruch BSB",
+      "source_url": "https://fragdenstaat.de/files/foi/1014668/widerspruch-bsb-22042025_geschwaerzt.pdf?download=",
+      "source_license_note": "redacted public FOI correspondence",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/behoerdenpost_002.pdf",
+      "sha256": "0065b8347dd9b65f76a6d1c1dea289c6a03ecb62eec977c2235ece2264981678"
+    },
+    {
+      "doc_id": "behoerdenpost_003",
+      "category": "behoerdenpost",
+      "title": "FragDenStaat Widerspruch Bescheid",
+      "source_url": "https://fragdenstaat.de/files/foi/104175/widerspruch_bescheid_geschwaerzt.pdf?download=",
+      "source_license_note": "redacted public FOI correspondence",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/behoerdenpost_003.pdf",
+      "sha256": "a0b807975bec9afde30c8b3d0b8d05ca1d30adc98dc3250be793d511896f8a93"
+    },
+    {
+      "doc_id": "behoerdenpost_004",
+      "category": "behoerdenpost",
+      "title": "FragDenStaat Antwort Bescheid",
+      "source_url": "https://fragdenstaat.de/files/foi/588348/antwort-2021-04-13_geschwaerzt.pdf?download=",
+      "source_license_note": "redacted public FOI correspondence",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/behoerdenpost_004.pdf",
+      "sha256": "8229b63f339266c32b6aa649b05fd19fe1448852585353126f1168e451d4c257"
+    },
+    {
+      "doc_id": "behoerdenpost_005",
+      "category": "behoerdenpost",
+      "title": "FragDenStaat BMI Widerspruchsbescheid",
+      "source_url": "https://fragdenstaat.de/files/foi/13558/bmi_widerspruchsbescheid_geschwaerzt.pdf?download=",
+      "source_license_note": "redacted public FOI correspondence",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/behoerdenpost_005.pdf",
+      "sha256": "6ba32148c1aada21290e3164fe4a12e01cd081a373e97e7fc7c4e26de4e95354"
+    },
+    {
+      "doc_id": "versicherung_001",
+      "category": "versicherung",
+      "title": "GDV Haftpflicht AHB",
+      "source_url": "https://www.gdv.de/resource/blob/6132/3206ded4f5f7698cc9df23383aecd6d6/01-allgemeine-versicherungsbedingungen-fuer-die-haftpflichtversicherung-ahb--data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/versicherung_001.pdf",
+      "sha256": "ec231b09181af6523e136577e4cfd1ce375ccf0615d6c3a30206b2388e1bce5f"
+    },
+    {
+      "doc_id": "versicherung_002",
+      "category": "versicherung",
+      "title": "GDV Cyber AVB",
+      "source_url": "https://www.gdv.de/resource/blob/6100/a0fed56c4947751cdc20b5206c171d98/01-allgemeine-versicherungsbedingungen-fuer-die-cyberrisiko-versicherung-avb-cyber--data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/versicherung_002.pdf",
+      "sha256": "f64f203e4de97d665ca3da407ae9bc90e88a71123da0614cb0731d4e5b20abfc"
+    },
+    {
+      "doc_id": "versicherung_003",
+      "category": "versicherung",
+      "title": "GDV Wohngebaeude VGB 2022",
+      "source_url": "https://www.gdv.de/resource/blob/37090/562b0c381cf8f48be1cdafb8e74cc2e3/allgemeine-wohngebaeude-versicherungsbedingungen-vgb-2022-wohnflaechenmodell--data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/versicherung_003.pdf",
+      "sha256": "f936de0e080fa3a8bbeb00c77fdb1b596267478c7591e983d340a78a1bc75ec9"
+    },
+    {
+      "doc_id": "versicherung_004",
+      "category": "versicherung",
+      "title": "GDV Hausrat VHB 2022",
+      "source_url": "https://www.gdv.de/resource/blob/6114/458ab7b03401b2bb3bd22b707a5ec6cc/allgemeine-hausrat-versicherungsbedingungen-vhb-2022-quadratmetermodell--data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/versicherung_004.pdf",
+      "sha256": "5162e2d5b74c3825f187bb975daa6bd3dba49976a2f099bdf6582df53348c3ce"
+    },
+    {
+      "doc_id": "versicherung_005",
+      "category": "versicherung",
+      "title": "GDV Kfz AKB 2015",
+      "source_url": "https://www.gdv.de/resource/blob/6178/ec39e06d2f552aca5f35f19277c94603/01-allgemeine-bedingungen-fuer-die-kfz-versicherung-akb-2015--data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/versicherung_005.pdf",
+      "sha256": "d69e77e6b612dd7515e5eeb6ef9657732c6f0294e8e0aa867d0cfe9d50bc7f60"
+    },
+    {
+      "doc_id": "bank_finanzen_001",
+      "category": "bank_finanzen",
+      "title": "Bundesbank SEPA Mandatsvordruck",
+      "source_url": "https://www.bundesbank.de/resource/blob/604032/f58c7ae5ddc02201a64b5b8e3176de4d/mL/4806-mandatsvordruck-hvb-entgelte-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/bank_finanzen_001.pdf",
+      "sha256": "ab894f2614205416b033533d1faa59eaf97a1d202053aaa548d6616c4ed03aee"
+    },
+    {
+      "doc_id": "bank_finanzen_002",
+      "category": "bank_finanzen",
+      "title": "Bundesbank SEPA Lastschrift Verfahrensregeln",
+      "source_url": "https://www.bundesbank.de/resource/blob/895176/d6e28cbceb27abad572105d33fddc9fa/mL/verfahrensregeln-fuer-sepa-lastschriften-1-0-032023-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/bank_finanzen_002.pdf",
+      "sha256": "fde82cdb1035537079dacc04a515fdc87370425c7fa13cc6bb22515aa12b95f2"
+    },
+    {
+      "doc_id": "bank_finanzen_003",
+      "category": "bank_finanzen",
+      "title": "Bundesbank EBICS Verfahrensregeln",
+      "source_url": "https://www.bundesbank.de/resource/blob/964228/6db68b835ecd37d6f54ae4633bb9462a/472B63F073F071307366337C94F8C870/verfahrensregeln-ebics-2025-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/bank_finanzen_003.pdf",
+      "sha256": "81f82fa83ca5ab28f955d7a35b6b66e6a1b3c1e4b61c99e2d0b97dfa02892de8"
+    },
+    {
+      "doc_id": "bank_finanzen_004",
+      "category": "bank_finanzen",
+      "title": "Bundesbank Kundendaten-Meldebogen Hinweise",
+      "source_url": "https://www.bundesbank.de/resource/blob/600130/958232a965af20619743f26139cb2525/472B63F073F071307366337C94F8C870/3000a-ausfuellhinweise-zum-kundendaten-meldebogen-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/bank_finanzen_004.pdf",
+      "sha256": "157e778162ae8bd053c5a9b952941bcc0fcdff908b5b936566c1eb7c5e6cf0f4"
+    },
+    {
+      "doc_id": "bank_finanzen_005",
+      "category": "bank_finanzen",
+      "title": "Bundesbank SEPA Mitteilung",
+      "source_url": "https://www.bundesbank.de/resource/blob/671762/99f22b8717bbd84d144db74f0bfad87b/mL/2008-03-19-4001-data.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/bank_finanzen_005.pdf",
+      "sha256": "054ba35b9edd04296182932019c0285e154b09d54385217b432077157a29299a"
+    },
+    {
+      "doc_id": "steuer_001",
+      "category": "steuer",
+      "title": "BMF Vollmacht Besteuerungsverfahren",
+      "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere_Steuerthemen/Abgabenordnung/2025-03-27-neufassung-muster-vollmachten.pdf?__blob=publicationFile&v=5",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/steuer_001.pdf",
+      "sha256": "e03a2f9b2fc213509288dacf9d459416a8c7d59d6f070f24e63447a2a8b4e849"
+    },
+    {
+      "doc_id": "steuer_002",
+      "category": "steuer",
+      "title": "BMF Vordruck EZVA",
+      "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere_Steuerthemen/Altersvorsorge/2025-10-17-vordruck-ezva.pdf?__blob=publicationFile&v=2",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/steuer_002.pdf",
+      "sha256": "e7f95be06add6d46ca6ad8b07c43eed72c8f1b2e81da92d9fa0543f1c02239f8"
+    },
+    {
+      "doc_id": "steuer_003",
+      "category": "steuer",
+      "title": "BMF Steuerbescheinigung Kapitalertragsteuer",
+      "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Abgeltungsteuer/2025-05-16-kapitalertragSt-steuerbescheinigung.pdf?__blob=publicationFile&v=3",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/steuer_003.pdf",
+      "sha256": "f787dbc3435f68cfa8d5495c6d4eb61078cd31823dac46d5b5d91065d86fa461"
+    },
+    {
+      "doc_id": "steuer_004",
+      "category": "steuer",
+      "title": "BMF Anlage EUER 2025",
+      "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Einkommensteuer/2025-08-29-anlage-EUER-2025.pdf?__blob=publicationFile&v=3",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/steuer_004.pdf",
+      "sha256": "b69b5cf0a982d28cbce20644e67677a36be0bc494bed4fae2310dc08230a1599"
+    },
+    {
+      "doc_id": "steuer_005",
+      "category": "steuer",
+      "title": "BMF Energetische Steuerermaessigung",
+      "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Einkommensteuer/2024-12-23-steuererm-energetische-bmf-schreiben.pdf?__blob=publicationFile&v=4",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/steuer_005.pdf",
+      "sha256": "3ce8e326d172eeacfb43c9800ed0006a6b5d2115fb9daa401f178883a5be9a02"
+    },
+    {
+      "doc_id": "medizin_001",
+      "category": "medizin",
+      "title": "KBV Mustersammlung",
+      "source_url": "https://www.kbv.de/documents/infothek/rechtsquellen/bundesmantelvertrag/anlage-02-vordruckvereinbarung/02_Mustersammlung.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/medizin_001.pdf",
+      "sha256": "7ffa19a13e96e6a96b2386b4b1631cd33aac9326edeafa43d59b6c35d9ec1665"
+    },
+    {
+      "doc_id": "medizin_002",
+      "category": "medizin",
+      "title": "KBV Vordruckvereinbarung",
+      "source_url": "https://www.kbv.de/documents/infothek/rechtsquellen/bundesmantelvertrag/anlage-02-vordruckvereinbarung/02_Vordruckvereinbarung.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/medizin_002.pdf",
+      "sha256": "7bd69916743b24a8e7db57b0feb9c3ea2abd781252139534aa5477d34f663d57"
+    },
+    {
+      "doc_id": "medizin_003",
+      "category": "medizin",
+      "title": "KBV Blankoformularbedruckung",
+      "source_url": "https://www.kbv.de/documents/infothek/rechtsquellen/bundesmantelvertrag/anlage-02a-blankoformularbedruckung/02a_Blankoformularbedruckung.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/medizin_003.pdf",
+      "sha256": "eac20a1dd21617aa0ddb358198ce4751fa6069b80cab7f20cc71fc961642393b"
+    },
+    {
+      "doc_id": "medizin_004",
+      "category": "medizin",
+      "title": "KBV Muster 9 2026",
+      "source_url": "https://www.kbv.de/documents/praxis/verordnungen/muster-9-2026.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/medizin_004.pdf",
+      "sha256": "8b3a14075cb90f23b6adda8f8d5b6ce11340c2c44b3426a264112406cd2b8087"
+    },
+    {
+      "doc_id": "medizin_005",
+      "category": "medizin",
+      "title": "KBV PTV Ausfuellhilfen",
+      "source_url": "https://www.kbv.de/documents/infothek/rechtsquellen/psychotherapie/ptv-ausfuellhilfen.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/medizin_005.pdf",
+      "sha256": "99617c1fb7ce2e39949812759c211ed8036867630f331b49c0fb26bf34158977"
+    },
+    {
+      "doc_id": "formulare_001",
+      "category": "formulare",
+      "title": "Arbeitsagentur Buergergeld Hauptantrag",
+      "source_url": "https://www.arbeitsagentur.de/datei/antrag-sgb2_ba042689.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/formulare_001.pdf",
+      "sha256": "5901f5fb3ab2d3d1be882326b5f016183bde902f5baa0d9dc4caf907f1707282"
+    },
+    {
+      "doc_id": "formulare_002",
+      "category": "formulare",
+      "title": "Arbeitsagentur Weiterbewilligungsantrag",
+      "source_url": "https://www.arbeitsagentur.de/datei/weiterbewilligung-sgb2_ba042699.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/formulare_002.pdf",
+      "sha256": "4920513e6cc2efe9d9df29eed9906a48c31c5cc1a22c101637a2d026e02489d7"
+    },
+    {
+      "doc_id": "formulare_003",
+      "category": "formulare",
+      "title": "Arbeitsagentur Anlage EK",
+      "source_url": "https://www.arbeitsagentur.de/datei/anlageek_ba032960.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/formulare_003.pdf",
+      "sha256": "60d4666491a1cfec7234927f5120ba195f71f6e9897e41587d5c4027c0e95b9c"
+    },
+    {
+      "doc_id": "formulare_004",
+      "category": "formulare",
+      "title": "Arbeitsagentur Anlage KDU",
+      "source_url": "https://www.arbeitsagentur.de/datei/anlagekdu_ba032980.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/formulare_004.pdf",
+      "sha256": "68ce4d99abf5b2f0b2cc3d5a57aee6506de02116a9274fd2277ee36c22aad72c"
+    },
+    {
+      "doc_id": "formulare_005",
+      "category": "formulare",
+      "title": "Arbeitsagentur Anlage SV",
+      "source_url": "https://www.arbeitsagentur.de/datei/anlagesv_ba033005.pdf",
+      "source_license_note": "public internet PDF; verify source-specific reuse terms before redistribution",
+      "selected_pages": [
+        1,
+        2
+      ],
+      "split": "active",
+      "local_pdf_path": "data/pdfs/formulare_005.pdf",
+      "sha256": "272c757ae8314b08e0ab831c63d5404502aaff585da761a8744c12692f1ed9f0"
+    }
+  ]
+}

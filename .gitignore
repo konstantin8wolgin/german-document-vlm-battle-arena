@@ -1,0 +1,23 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/
+.env
+.env.*
+*.key
+*.pem
+*secret*
+build/
+dist/
+
+# Private benchmark artifacts.
+data/pdfs/
+data/rendered/
+gold/
+predictions/
+raw_responses/
+scores/
+reports/
+gold_pack/
+runs.jsonl
+rendered_manifest.json
