@@ -20,4 +20,4 @@ scores/
 reports/
 gold_pack/
 runs.jsonl
-rendered_manifest.json
+rendered_manifest*.json
