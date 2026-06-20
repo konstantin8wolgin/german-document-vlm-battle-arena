@@ -28,6 +28,24 @@ def _result_to_dict(result) -> dict:
     }
 
 
+def _prediction_key(row: dict) -> tuple[str, str, str]:
+    return (str(row.get("model")), str(row.get("prompt")), str(row.get("doc_id")))
+
+
+def _load_existing_predictions(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise ValueError("existing predictions output must be a list")
+    return data
+
+
+def _write_predictions(path: Path, rows: list[dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(rows, indent=2) + "\n", encoding="utf-8")
+
+
 def run_tournament(
     rendered_manifest_path: str | Path,
     output_path: str | Path,
@@ -40,12 +58,17 @@ def run_tournament(
     selected_models = models or list(CONTESTANT_MODELS)
     selected_prompts = prompts or list(PROMPT_VARIANTS)
     caller = call_model or call_openrouter
-    rows: list[dict] = []
+    target = Path(output_path)
+    rows = _load_existing_predictions(target)
+    completed = {_prediction_key(row) for row in rows}
 
     for doc in rendered_docs:
         image_paths = [page["image_path"] for page in doc.get("pages", [])]
         for model in selected_models:
             for prompt_name in selected_prompts:
+                key = (model, prompt_name, doc["doc_id"])
+                if key in completed:
+                    continue
                 started = time.perf_counter()
                 payload = build_vision_payload(
                     model=model,
@@ -79,8 +102,8 @@ def run_tournament(
                         "cost_usd": float(result.get("cost_usd", 0) or 0),
                     }
                 )
+                completed.add(key)
+                _write_predictions(target, rows)
 
-    target = Path(output_path)
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(rows, indent=2) + "\n", encoding="utf-8")
+    _write_predictions(target, rows)
     return target

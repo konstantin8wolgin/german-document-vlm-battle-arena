@@ -25,6 +25,24 @@ def test_render_pdf_uses_pdftoppm_and_records_hashes(tmp_path, monkeypatch):
     assert rendered.pages[0].sha256
 
 
+def test_render_pdf_records_category(tmp_path, monkeypatch):
+    pdf = tmp_path / "doc.pdf"
+    pdf.write_bytes(b"%PDF-1.4\n")
+    out_dir = tmp_path / "rendered"
+
+    def fake_run(cmd, check, capture_output, text):
+        page = tmp_path / "rendered" / "doc-1.png"
+        page.parent.mkdir(parents=True, exist_ok=True)
+        page.write_bytes(b"png-bytes")
+        return subprocess.CompletedProcess(cmd, 0, "", "")
+
+    monkeypatch.setattr(subprocess, "run", fake_run)
+
+    rendered = render_pdf(pdf, out_dir, pages=[1], dpi=180, category="rechnungen")
+
+    assert rendered.category == "rechnungen"
+
+
 def test_render_pdf_falls_back_to_mutool_when_pdftoppm_fails(tmp_path, monkeypatch):
     pdf = tmp_path / "doc.pdf"
     pdf.write_bytes(b"%PDF-1.4\n")

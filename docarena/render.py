@@ -24,6 +24,7 @@ class RenderedDocument:
     renderer: str
     dpi: int
     pages: list[RenderedPage]
+    category: str = "document"
 
 
 def _run_pdftoppm(pdf: Path, out_dir: Path, pages: list[int], dpi: int) -> None:
@@ -40,7 +41,14 @@ def _run_mutool(pdf: Path, out_dir: Path, pages: list[int], dpi: int) -> None:
     subprocess.run(cmd, check=True, capture_output=True, text=True)
 
 
-def render_pdf(pdf_path: str | Path, out_dir: str | Path, pages: list[int], dpi: int = 200, doc_id: str | None = None) -> RenderedDocument:
+def render_pdf(
+    pdf_path: str | Path,
+    out_dir: str | Path,
+    pages: list[int],
+    dpi: int = 200,
+    doc_id: str | None = None,
+    category: str = "document",
+) -> RenderedDocument:
     pdf = Path(pdf_path)
     output_dir = Path(out_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -76,7 +84,7 @@ def render_pdf(pdf_path: str | Path, out_dir: str | Path, pages: list[int], dpi:
                 sha256=sha256_file(image_path),
             )
         )
-    return RenderedDocument(doc_id=doc_id, source_pdf=pdf, renderer=renderer, dpi=dpi, pages=rendered_pages)
+    return RenderedDocument(doc_id=doc_id, source_pdf=pdf, renderer=renderer, dpi=dpi, pages=rendered_pages, category=category)
 
 
 def write_rendered_manifest(rendered: list[RenderedDocument], path: str | Path) -> Path:

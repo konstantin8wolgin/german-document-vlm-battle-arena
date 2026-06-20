@@ -72,7 +72,16 @@ def _cmd_render(args: argparse.Namespace) -> int:
         if not doc.local_pdf_path.exists():
             print(f"missing PDF for {doc.doc_id}: {doc.local_pdf_path}", file=sys.stderr)
             continue
-        rendered.append(render_pdf(doc.local_pdf_path, Path(args.output_dir) / doc.doc_id, doc.selected_pages, args.dpi, doc.doc_id))
+        rendered.append(
+            render_pdf(
+                doc.local_pdf_path,
+                Path(args.output_dir) / doc.doc_id,
+                doc.selected_pages,
+                args.dpi,
+                doc.doc_id,
+                doc.category,
+            )
+        )
     target = write_rendered_manifest(rendered, args.output)
     print(f"wrote {target}")
     return 0

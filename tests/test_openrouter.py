@@ -41,6 +41,11 @@ def test_parse_model_json_rejects_malformed_response():
         parse_model_json("I refuse")
 
 
+def test_parse_model_json_rejects_null_content_as_value_error():
+    with pytest.raises(ValueError, match="not text"):
+        parse_model_json(None)
+
+
 def test_contestant_models_exclude_deepseek_and_include_required_eight():
     assert len(CONTESTANT_MODELS) >= 8
     assert all("deepseek" not in model.lower() for model in CONTESTANT_MODELS)

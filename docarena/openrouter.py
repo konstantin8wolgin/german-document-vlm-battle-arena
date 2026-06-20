@@ -57,7 +57,9 @@ def build_vision_payload(model: str, prompt: str, image_paths: list[str | Path],
     }
 
 
-def parse_model_json(text: str) -> dict:
+def parse_model_json(text: str | None) -> dict:
+    if not isinstance(text, str):
+        raise ValueError("response content is not text")
     stripped = text.strip()
     if stripped.startswith("```"):
         lines = stripped.splitlines()
